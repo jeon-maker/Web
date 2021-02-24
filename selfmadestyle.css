@@ -1,0 +1,43 @@
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: gray;
+}
+
+.목차
+{
+  font-size: 30px;
+  text-align:left;
+  color: gray;
+}
+.목차 li {
+  border-bottom: 1px black solid;
+
+}
+ol{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 80px;
+}
+.내용{
+  border:1px pink solid;
+padding-bottom: 20px;
+font-size: 15px;
+border-top-width: 50px;
+}
+@media(max-width:1100px)
+{
+  .내용
+  {
+    display: none;
+  }
+}
+h2{
+  display: block;
+  font-size: 20px;
+  text-align:center;
+  color: black;
+}
+.img{text-align: right;
+
+}
